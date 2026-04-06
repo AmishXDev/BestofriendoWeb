@@ -44,7 +44,6 @@ body {
   line-height: 1.6;
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -62,7 +61,6 @@ body {
   background: var(--primary);
 }
 
-/* Cursor Glow Effect */
 .cursor-glow {
   position: fixed;
   width: 400px;
@@ -79,7 +77,6 @@ body {
   transition: opacity 0.3s ease;
 }
 
-/* Animated Background */
 .bg-animation {
   position: fixed;
   top: 0;
@@ -141,7 +138,6 @@ body {
   }
 }
 
-/* Grid Pattern Overlay */
 .grid-pattern {
   position: fixed;
   top: 0;
@@ -156,7 +152,6 @@ body {
   pointer-events: none;
 }
 
-/* Navigation */
 nav {
   position: fixed;
   top: 0;
@@ -235,7 +230,6 @@ nav {
   box-shadow: 0 10px 40px rgba(99, 102, 241, 0.4);
 }
 
-/* Hero Section */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -361,7 +355,6 @@ nav {
   transform: translateY(-3px);
 }
 
-/* Hero Visual - Chat Mockup with Floating Images */
 .hero-visual {
   position: relative;
   width: 100%;
@@ -560,7 +553,6 @@ nav {
   fill: white;
 }
 
-/* Floating Image Cards */
 .floating-card {
   position: absolute;
   background: rgba(255, 255, 255, 0.08);
@@ -598,7 +590,6 @@ nav {
   pointer-events: none;
 }
 
-/* Image Caption */
 .image-caption {
   position: absolute;
   bottom: 12px;
@@ -697,7 +688,6 @@ nav {
   }
 }
 
-/* Decorative Elements */
 .hero-glow {
   position: absolute;
   width: 500px;
@@ -712,7 +702,6 @@ nav {
   z-index: -1;
 }
 
-/* Stats Section */
 .hero-stats {
   display: flex;
   gap: 60px;
@@ -740,7 +729,6 @@ nav {
   margin-top: 5px;
 }
 
-/* Features Section */
 .features {
   padding: 150px 60px;
   position: relative;
@@ -845,7 +833,6 @@ nav {
   line-height: 1.7;
 }
 
-/* Testimonials Section */
 .testimonials {
   padding: 150px 60px;
   background: linear-gradient(
@@ -919,7 +906,6 @@ nav {
   color: var(--text-muted);
 }
 
-/* Download Section */
 .download {
   padding: 150px 60px;
   position: relative;
@@ -1017,7 +1003,6 @@ nav {
   height: 28px;
 }
 
-/* Team Section */
 .team {
   padding: 150px 60px;
 }
@@ -1094,7 +1079,6 @@ nav {
   color: white;
 }
 
-/* Integrations Section */
 .integrations {
   padding: 100px 60px;
   background: var(--bg-card);
@@ -1126,7 +1110,6 @@ nav {
   filter: grayscale(0%);
 }
 
-/* Footer */
 footer {
   padding: 100px 60px 50px;
   border-top: 1px solid var(--border-glass);
@@ -1215,7 +1198,6 @@ footer {
   transform: translateY(-3px);
 }
 
-/* Animations */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -1238,7 +1220,6 @@ footer {
   transform: translateY(0);
 }
 
-/* Responsive */
 @media (max-width: 1024px) {
   .hero-visual {
     transform: scale(0.9);
@@ -1336,7 +1317,6 @@ footer {
   }
 }
 
-/* Showcase Section */
 .showcase {
   padding: 150px 60px;
   position: relative;
@@ -1391,7 +1371,6 @@ footer {
   font-size: 14px;
 }
 
-/* Stats Counter Animation */
 .stats-section {
   padding: 100px 60px;
   background: linear-gradient(
